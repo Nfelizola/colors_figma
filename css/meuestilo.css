@@ -2,6 +2,7 @@
 ESTEJAM ZERADOS E LIVRES DE ATRIBUTOS PADRÕES DO NAVEGADOR =====*/
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
 * {
     padding: 0;
@@ -190,7 +191,72 @@ background: #E0E0E0;
   justify-content: space-between;
 }
 
+.divname{
+position: absolute;
+width: 160px;
+height: 64px;
+left: 180px;
+top: 37px;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 32px;
+line-height: 100%;
+color: #000000;
+}
+
+.divsong{
+position: absolute;
+width: 233px;
+height: 34px;
+left: 155px;
+top: 119px;
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+font-size: 26px;
+line-height: 130%;
+color: #000000;
+}
+.divava{
+position: relative;
+width: 140px;
+height: 140px;
+left: 4px;
+top: 4px;
+background: url("/img/madonna.png");
+background-size:cover;
+border-radius: 100px;
+}
+.circulo {
+  position:absolute;
+  top:10px;
+  left:10px;
+  background-image:radial-gradient(circle at top right, #0d0d0d, red, #e52e71);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.divingles{
+  position: absolute;
+  width: 170px;
+  height: 532px;
+  left: 15px;
+  top: 198px;
+  background: #C4C4C4;
+}
+
+.divportugues{
+  position: absolute;
+  width: 170px;
+  height: 532px;
+  left: 200px;
+  top: 198px;
+  background: #C4C4C4;
+  
+}
 
 
+
+  
 
 
