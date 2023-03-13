@@ -1,0 +1,196 @@
+/* ===== ESTE BLOCO FAZ UM RESET, OU SEJA GARANTE QUE ALGUNS ATRIBUTOS
+ESTEJAM ZERADOS E LIVRES DE ATRIBUTOS PADRÕES DO NAVEGADOR =====*/
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: none;
+    list-style: none;
+    border: 0;
+    text-decoration: none;
+    /*/overflow: hidden;*/
+  } 
+
+
+.divprincipal{
+    box-sizing: border-box;
+    position: absolute;
+    width: 382px;
+    height: 800px;
+    border: 3px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 49px;
+    margin-left: 4px;
+
+}
+
+.divtitulo{
+  /* THE COLORS SONG */
+position: absolute;
+width: 29px;
+height: 34px;
+left: 30px;
+top: 50px;
+font-family: 'Prosto One', cursive;
+font-weight: 400;
+font-size: 40px;
+line-height: 100%;
+color: #000000;
+}
+
+.divcores{
+/* logocores 1 */
+position: absolute;
+width: 105px;
+height: 106px;
+left: 245px;
+top: 52px;
+background: url("/img/logocores 1.png");
+}
+
+.divphoto1{
+/* photo-01 */
+position: absolute;
+width: 175.78px;
+height: 140.98px;
+left: 14px;
+top: 237px;
+background: #E0E0E0;
+}
+.divnomecor1{
+/* White */
+position: absolute;
+width: 102.98px;
+height: 31.72px;
+left: 45.07px;
+top: 346.26px;
+font-family: 'Prosto One';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 100%;
+color: #000000;
+}
+.divphoto2{
+  position: absolute;
+  width: 175.78px;
+  height: 140.98px;
+  left: 194.22px;
+  top: 237px;
+  background: #E0E0E0;
+}
+.divnomecor2{
+  position: absolute;
+  width: 92.33px;
+  height: 31.72px;
+  left: 228.84px;
+  top: 346.26px;
+  font-family: 'Prosto One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  color: #000000;
+}
+.divphoto3{
+position: absolute;
+width: 175.78px;
+height: 140.98px;
+left: 14px;
+top: 381.51px;
+background: #E0E0E0;
+}
+.divnomecor3{
+  position: absolute;
+  width: 108.31px;
+  height: 31.72px;
+  left: 55.73px;
+  top: 490.77px;
+  font-family: 'Prosto One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  color: #000000;
+}
+.divphoto4{
+position: absolute;
+width: 175.78px;
+height: 140.98px;
+left: 193.33px;
+top: 381.51px;
+background: #E0E0E0;
+}
+.divnomecor4{
+  position: absolute;
+  width: 108px;
+  height: 35px;
+  left: 228.58px;
+  top: 491.27px;
+  font-family: 'Prosto One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  color: #000000;
+}
+.divphoto5{
+
+position: absolute;
+width: 175.78px;
+height: 140.98px;
+left: 14px;
+top: 526.02px;
+background: #E0E0E0;
+}
+.divnomecor5{
+  position: absolute;
+  width: 92.33px;
+  height: 31.72px;
+  left: 55.73px;
+  top: 632.64px;
+  font-family: 'Prosto One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  color: #000000;
+}
+.divphoto6{
+position: absolute;
+width: 175.78px;
+height: 140.98px;
+left: 193.33px;
+top: 526.02px;
+background: #E0E0E0;
+}
+.divnomecor6{
+  position: absolute;
+  width: 119.85px;
+  height: 31.72px;
+  left: 216.41px;
+  top: 632.64px;
+  font-family: 'Prosto One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  color: #000000;
+}
+
+.footer{
+  display: flex;
+  position: absolute;
+  width: 336px;
+  height: 33px;
+  left: 33px;
+  top: 755px;
+  justify-content: space-between;
+}
+
+
+
+
+
